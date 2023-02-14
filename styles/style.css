@@ -238,6 +238,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #f2f2f2;
 }
 
 .staff__subtitle {
@@ -272,6 +273,7 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
+  background-color: #f2f2f2;
 }
 
 .card__content {
