@@ -416,7 +416,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 57px 102px 60px 80px;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
@@ -425,14 +425,19 @@
 
 .footer__column_hours {
   margin-left: auto;
+  margin-top: 60px;
 }
 
 .footer__column_social {
   margin-left: 100px;
+  margin-top: 60px;
 }
 
 .footer__logo {
-  width: 153px;
+  width: 116px;
+  height: 21px;
+  margin-left: 80px;
+  margin-top: 60px;
 }
 
 .footer__list {
@@ -472,4 +477,6 @@
 
 .footer__copyright {
   margin: 108px 0 0;
+  margin-left: 80px;
+  margin-bottom: 60px;
 }
