@@ -357,7 +357,6 @@
 
 .step__description {
   display: flex;
-  justify-content: ;
   gap: 40px;
   width: 220px;
   margin: 10px 0 0;
@@ -379,9 +378,8 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  z-index: 1;
   max-width: 154px;
-  z-index: 0;
+  z-index: 1;
 }
 
 .about__content {
@@ -390,12 +388,13 @@
   font-weight: 400;
   max-width: 660px;
   padding-left: 120px;
-  z-index: 0;
+  z-index: 1;
 }
 
 .about__paragraph {
   margin-bottom: 32px;
-  z-index: 0;
+  margin-right: auto;
+  z-index: 1;
 }
 
 .about__circle {
@@ -406,7 +405,7 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
-  z-index: -1;
+  z-index: 0;
 }
 
 .footer {
