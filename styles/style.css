@@ -20,7 +20,6 @@
 }
 
 .nav {
-  /* Add flex properties here */
   display: flex;
   justify-content: space-between;
 }
@@ -31,8 +30,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
-
   display: flex;
   list-style: none;
   column-gap: 20px;
@@ -166,6 +163,10 @@
   margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #1f69c9;
 }
 
 .events__cover {
