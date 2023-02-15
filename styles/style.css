@@ -423,12 +423,12 @@
   display: flex;
 }
 
-.footer__columns_content_hours {
+.footer__column_content_hours {
   margin-left: auto;
   margin-top: 60px;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
   margin-left: 100px;
   margin-top: 60px;
 }
@@ -436,7 +436,6 @@
 .footer__logo {
   width: 116px;
   height: 21px;
-  margin-left: 80px;
   margin-top: 60px;
 }
 
@@ -476,7 +475,5 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 0;
-  margin-left: 80px;
-  margin-bottom: 60px;
+  margin: 108px 0 60;
 }
