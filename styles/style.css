@@ -423,12 +423,12 @@
   display: flex;
 }
 
-.footer__column_hours {
+.footer__columns_content_hours {
   margin-left: auto;
   margin-top: 60px;
 }
 
-.footer__column_social {
+.footer__columns_content_social {
   margin-left: 100px;
   margin-top: 60px;
 }
