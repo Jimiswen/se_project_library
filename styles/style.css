@@ -274,12 +274,13 @@
 }
 
 .card {
+  background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   height: 420px;
   width: 360px;
-  background-color: #f2f2f2;
+  margin: auto;
 }
 
 .card__content {
@@ -388,6 +389,7 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  padding-left: 120px;
   z-index: 0;
 }
 
@@ -397,11 +399,10 @@
 }
 
 .about__circle {
-  display: flex;
-  position: absolute;
-  margin-top: -200px;
-  margin-left: -175px;
+  margin-top: -121px;
+  margin-left: -91px;
   background-color: #2f80ed;
+  position: absolute;
   width: 495px;
   height: 495px;
   border-radius: 50%;
