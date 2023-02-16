@@ -400,8 +400,8 @@
 }
 
 .about__circle {
-  margin-top: -121px;
-  margin-left: -91px;
+  top: -121px;
+  left: -91px;
   background-color: #2f80ed;
   position: absolute;
   width: 495px;
