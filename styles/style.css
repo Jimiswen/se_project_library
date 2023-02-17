@@ -39,7 +39,6 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
-  border-top: 8px;
 }
 
 .nav__link:hover {
@@ -52,6 +51,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 .header__description {
@@ -59,6 +59,7 @@
   margin-top: 32px;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -237,8 +238,8 @@
 }
 
 .staff {
-  padding-top: 100px;
-  padding-bottom: 140px;
+  background-size: auto;
+  background-position: auto;
   background-image: url("../images/staff_picks_background.jpg");
 }
 
@@ -256,7 +257,6 @@
   line-height: 30px;
   font-weight: 400;
   margin: 24px 0 0;
-  border-bottom: 68px;
   color: #f2f2f2;
 }
 
@@ -275,7 +275,6 @@
 
 .card {
   background-color: #fff;
-  border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   height: 420px;
@@ -330,7 +329,6 @@
 .membership__steps {
   display: flex;
   justify-content: center;
-  justify-content: space between;
   gap: 40px;
   list-style-type: none;
   padding: 0;
@@ -338,6 +336,7 @@
 }
 
 .step {
+  flex-basis: auto;
 }
 
 .step__title {
@@ -354,9 +353,8 @@
 }
 
 .step__description {
-  display: flex;
-  gap: 40px;
-  width: 220px;
+  max-width: 220px;
+  width: 100%;
   margin: 10px 0 0;
 }
 
@@ -367,15 +365,13 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-
+  padding: 100px 80px;
   z-index: 0;
 }
 
 .about__title {
   margin: 0;
   margin-right: 120px;
-  padding-top: 100px;
-  margin-left: 80px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
@@ -387,7 +383,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  padding: 100px 80px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
@@ -416,6 +411,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
+  min-height: 224px;
   padding: 60px 102px 60px 80px;
 }
 
@@ -425,18 +421,16 @@
 
 .footer__column_content_hours {
   margin-left: auto;
-  margin-top: 60px;
 }
 
 .footer__column_content_social {
   margin-left: 100px;
-  margin-top: 60px;
+  margin-bottom: auto;
 }
 
 .footer__logo {
   width: 116px;
   height: 21px;
-  margin-top: 60px;
 }
 
 .footer__list {
@@ -454,6 +448,8 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
@@ -475,5 +471,5 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 60;
+  margin: 108px 0 0;
 }
