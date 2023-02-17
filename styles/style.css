@@ -100,6 +100,7 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #f2f2f2;
 }
 
 .events__content {
@@ -361,20 +362,20 @@
 
 .about {
   display: flex;
-  flex-wrap: wrap;
   background-color: #1f1f1f;
   color: #fff;
   overflow: hidden;
   position: relative;
-  justify-content: text-align;
   box-sizing: border-box;
-  column-gap: 120px;
+
   z-index: 0;
 }
 
 .about__title {
   margin: 0;
   margin-right: 120px;
+  padding-top: 100px;
+  margin-left: 80px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
@@ -384,7 +385,8 @@
 
 .about__content {
   display: flex;
-
+  flex-direction: column;
+  gap: 32px;
   padding: 100px 80px;
   font-size: 20px;
   line-height: 30px;
