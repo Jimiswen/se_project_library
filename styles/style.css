@@ -280,7 +280,7 @@
   height: 420px;
   width: 360px;
   margin: auto;
-  margin-bottom: 68px;
+  margin-bottom: auto;
 }
 
 .card__content {
@@ -414,6 +414,7 @@
   color: #fff;
   min-height: 224px;
   padding: 60px 102px 60px 80px;
+  margin-top: auto;
 }
 
 .footer__columns {
