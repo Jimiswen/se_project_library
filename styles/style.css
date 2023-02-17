@@ -238,10 +238,9 @@
 }
 
 .staff {
-  background-size: auto;
+  background-size: cover;
   background-position: auto;
   background-image: url("../images/staff_picks_background.jpg");
-  background-repeat: repeat;
 }
 
 .staff__title {
@@ -270,7 +269,6 @@
   justify-content: center;
   list-style-type: none;
   gap: 40px 40px;
-  padding: 0;
 }
 
 .card {
@@ -279,8 +277,8 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
-  margin: auto;
-  margin-bottom: auto;
+  align-items: center;
+  border-radius: 6px;
 }
 
 .card__content {
@@ -288,7 +286,6 @@
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  border-radius: 6px;
 }
 
 .card__title {
@@ -302,6 +299,7 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: auto;
 }
 
 .card__footer {
