@@ -263,6 +263,7 @@
 
 .staff__cards {
   margin: auto;
+  margin-left: auto;
   max-width: 760px;
   margin-top: 68px;
   display: flex;
@@ -284,7 +285,6 @@
 .card__content {
   width: 100%;
   height: 100%;
-  max-width: 760px;
   display: flex;
   flex-direction: column;
   border-radius: 6px;
