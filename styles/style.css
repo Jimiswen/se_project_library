@@ -238,9 +238,9 @@
 }
 
 .staff {
-  background-size: auto;
+  background-size: cover;
   background-image: url("../images/staff_picks_background.jpg");
-  padding: 100 140px;
+  padding: 100px 140px;
 }
 
 .staff__title {
@@ -249,7 +249,6 @@
   line-height: 52px;
   margin: 0 24px;
   color: #f2f2f2;
-  padding-top: 100px;
 }
 
 .staff__subtitle {
@@ -272,7 +271,6 @@
   list-style-type: none;
   gap: 40px 40px;
   padding: 0;
-  padding-bottom: 68px;
 }
 
 .card {
@@ -311,7 +309,6 @@
   line-height: 20px;
   color: #838383;
   margin-top: auto;
-  margin-bottom: auto;
 }
 
 .membership {
@@ -357,7 +354,6 @@
 
 .step__description {
   margin: 10px 0 0;
-  flex-basis: auto;
 }
 
 .about {
