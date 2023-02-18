@@ -240,14 +240,14 @@
 .staff {
   background-size: auto;
   background-image: url("../images/staff_picks_background.jpg");
-  padding: 100 80px;
+  padding: 100 140px;
 }
 
 .staff__title {
   text-align: center;
   font-size: 44px;
   line-height: 52px;
-  margin: 0 0 24px;
+  margin: 0 24px;
   color: #f2f2f2;
   padding-top: 100px;
 }
@@ -281,6 +281,7 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
+  border-radius: 6px;
 }
 
 .card__content {
@@ -310,6 +311,7 @@
   line-height: 20px;
   color: #838383;
   margin-top: auto;
+  margin-bottom: auto;
 }
 
 .membership {
